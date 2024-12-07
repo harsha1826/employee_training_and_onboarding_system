@@ -1,0 +1,30 @@
+/* NavBar.css */
+nav {
+    position: top left; /* or 'sticky' for a similar effect */
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: #f60c0c; /* Background color to ensure visibility */
+    color: rgb(18, 18, 18);
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(225, 225, 14, 0.1);
+  }
+  
+  .navbar-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .MuiMenuItem-root {
+    color: rgb(241, 5, 5); /* Ensures the text color is black */
+  }
+  
+  /* Optional: Hover effect for MenuItem to enhance visibility */
+  .MuiMenuItem-root:hover {
+    background-color: rgba(0, 0, 0, 0.1); /* Slightly darker background on hover */
+  }
+  
+  /* Additional styles (if needed) */
+  .MuiAvatar-root {
+    border: 2px solid #110909; /* Optional: add a white border around avatar */
+  }

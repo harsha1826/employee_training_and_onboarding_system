@@ -1,0 +1,68 @@
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #e3f2fd; /* Light blue background */
+  border-radius: 8px;
+  height: 100vh;
+  overflow: auto;
+}
+
+h1 {
+  font-size: 2.5rem; /* Larger header */
+  color: #3f51b5; /* Primary color */
+  margin: 0;
+}
+
+h5 {
+  font-size: 1.5rem; /* Adjust h5 font size */
+  color: #333; /* Dark text color */
+  margin-bottom: 16px; /* Add spacing below h5 */
+}
+
+ul {
+  padding: 0; /* Remove default padding */
+}
+
+li {
+  margin: 8px 0; /* Spacing between list items */
+  color: #555; /* Grey text for list items */
+  transition: color 0.3s; /* Smooth color transition */
+}
+
+li:hover {
+  color: #3f51b5; /* Change color on hover */
+}
+
+.card {
+  border-radius: 12px; /* Rounded card corners */
+}
+
+.card-content {
+  padding: 20px; /* Padding inside the card */
+}
+
+.card:hover {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Shadow effect on hover */
+}
+
+.progress-bar {
+  border-radius: 5px; /* Rounded corners for the progress bar */
+  background-color: #e0e0e0; /* Light grey for progress background */
+}
+
+.progress-fill {
+  border-radius: 5px; /* Rounded corners for the filled part */
+  background-color: #3f51b5; /* Primary color for filled progress */
+}
+
+.button {
+  margin-top: 20px; /* Spacing above the button */
+  background-color: #3f51b5; /* Primary button color */
+  transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+.button:hover {
+  background-color: #303f9f; /* Darker shade on hover */
+}

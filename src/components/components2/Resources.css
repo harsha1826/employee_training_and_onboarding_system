@@ -1,0 +1,20 @@
+.resources-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.resources-list a {
+  text-decoration: none;
+  color: #1976d2;
+  font-weight: bold;
+  margin-right: 10px;
+  padding: 10px 15px;
+  background-color: #64e358;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.resources-list a:hover {
+  background-color: #f160cf;
+}

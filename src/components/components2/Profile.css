@@ -1,0 +1,12 @@
+/* Profile.css */
+.profile-container {
+    padding: 20px;
+    background-color: #4af5cd;
+  }
+  
+  .profile-info, .profile-settings {
+    background-color: rgb(17, 175, 219);
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  

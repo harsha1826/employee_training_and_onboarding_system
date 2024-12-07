@@ -1,0 +1,14 @@
+/* TrainingModules.css */
+.training-modules-container {
+    padding: 20px;
+    background-color: #0a81f7;
+  }
+  
+  .modules-list .module {
+    background-color: rgb(32, 29, 29);
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  

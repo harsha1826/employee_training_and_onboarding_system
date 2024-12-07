@@ -1,0 +1,96 @@
+/* SignUp.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #fff;
+}
+
+.signup-container {
+  background: rgba(242, 239, 239, 0.15);
+  color: #f4f2f2;
+  padding: 40px 60px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px #bdc405;
+  max-width: 500px;
+  backdrop-filter: blur(20px);
+  width: 100%;
+  box-sizing: border-box;
+  background: url('https://th.bing.com/th/id/OIP.d1-Yrth1n51n0IqkIW38rQHaDt?w=344&h=175&c=7&r=0&o=5&pid=1.7');
+  /*background: url('') no-repeat center center; */
+  background-size: cover;
+}
+h1, p, span, a {
+  color: #fff;
+}
+
+h1 {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #060000;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+  border-color: #28a745;
+  outline: none;
+  box-shadow: 0 0 5px rgba(40, 167, 69, 0.5);
+}
+
+input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #28a745;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+  background-color: #218838;
+}
+
+@media (max-width: 480px) {
+  .signup-container {
+    padding: 30px;
+    color:#fff;
+  }
+
+  h1 {
+    font-size: 24px;
+    color:#fff;
+  }
+
+  input[type="submit"] {
+    font-size: 16px;
+  }
+}

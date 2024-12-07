@@ -1,0 +1,124 @@
+/* General Styles */
+
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #1485f6;
+  color:#0b0101;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Ensure the body takes the full height of the viewport */
+  background: url('https://images.hdqwalls.com/download/pink-sunset-1920x1080.jpg');
+}
+
+/* Full-Screen Auth Page */
+
+
+/* Auth Container */
+.auth-container {
+  background: rgba(255, 255, 255, 0.15);
+  padding: 50px 70px;
+  border-radius: 30px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  backdrop-filter: blur(20px);
+  width: 100%;
+  box-sizing: cover;
+  background: url('https://th.bing.com/th/id/OIP.d1-Yrth1n51n0IqkIW38rQHaDt?w=344&h=175&c=7&r=0&o=5&pid=1.7') no-repeat center center; 
+  background-size: cover;
+}
+
+/* Full-Screen Compatibility */
+.auth-container:before {
+  content: '';
+  position: cover; /* Position it absolutely within the container */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: cover; /* Inherit the background from the container */
+  z-index: -1; /* Send it to the back */
+  
+}
+p {
+  color: #0d0101;
+  margin-bottom: 20px;
+  font-size: 24px;
+
+}
+
+/* Headings */
+h2 {
+  color: #0d0101;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+/* Form Group Styles */
+.form-group {
+  color: #0d0101;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+
+
+.form-group label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 5px;
+  color: #0c0000;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #c70404;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+/* Button Styles */
+.form-group button {
+  width: 100%;
+  padding: 10px;
+  background-color: #3498db;
+  color: #0b0101;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form-group button:hover {
+  background-color: #35cb30;
+}
+
+/* Toggle Button Styles */
+.toggle-button {
+  background: none;
+  border: none;
+  color: #3498db;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+h3 {
+  text-align: center;
+  color: #0d0d0d;
+  margin-bottom: 10px;
+}
+
+.toggle-button:hover {
+  color: #47cd21;
+}
+
+/* Error Message Styles */
+.error-message {
+  margin-top: 10px;
+  color: red;
+  font-size: 14px;
+}

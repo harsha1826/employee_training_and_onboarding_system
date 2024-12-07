@@ -1,0 +1,154 @@
+/* Handbook Container */
+.handbook-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+}
+
+/* Heading styles */
+h1 {
+    color: #ffffff; /* White color for main heading */
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+    color: #ffffff; /* White text for paragraphs */
+}
+
+/* General styles for all levels */
+.level-box {
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    color: #ffffff; /* White text */
+}
+
+/* Specific styles for each level */
+.level-box h2 {
+    text-align: center;
+    font-size: 1.8rem;
+    color: #ffffff; /* White text for level headings */
+}
+
+.level-box p {
+    font-size: 1.2rem;
+    color: #ffffff; /* White text for level descriptions */
+    margin-bottom: 15px;
+}
+
+/* Background colors for each level */
+.level-box.beginner {
+    background-color: #e0f7fa; /* Light cyan */
+}
+
+.level-box.intermediate {
+    background-color: #ffecb3; /* Light yellow */
+}
+
+.level-box.advanced {
+    background-color: #ffe0b2; /* Light orange */
+}
+
+.level-box.expert {
+    background-color: #e1bee7; /* Light purple */
+}
+
+/* Styling the unordered list */
+.level-box ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.level-box ul li {
+    font-size: 1.1rem;
+    color: #ffffff; /* White text for list items */
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 15px;
+    line-height: 1.6;
+}
+
+/* Adding an icon to the bullet points */
+.level-box ul li::before {
+    content: '✔'; /* Checkmark icon */
+    position: absolute;
+    left: 0;
+    color: #ffffff; /* White checkmark */
+    font-size: 1.2rem;
+    top: 0;
+}
+
+/* Hover effect for the entire box */
+.level-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .level-box {
+        padding: 15px;
+        margin: 15px;
+    }
+
+    .level-box h2 {
+        font-size: 1.5rem;
+    }
+
+    .level-box ul li {
+        font-size: 1rem;
+    }
+}
+
+/* Grid layout for levels */
+.level-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+/* Additional hover and transform effects */
+.level-box {
+    padding: 20px;
+    border-radius: 12px;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.level-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+/* Colors for each level with gradients */
+.beginner {
+    background: linear-gradient(135deg, #6a0572, #b91d73);
+}
+
+.intermediate {
+    background: linear-gradient(135deg, #ff6f61, #ff9472);
+}
+
+.advanced {
+    background: linear-gradient(135deg, #1d2f6f, #4f558a);
+}
+
+.expert {
+    background: linear-gradient(135deg, #16a085, #2ecc71);
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 768px) {
+    .level-box {
+        font-size: 0.9rem;
+    }
+}

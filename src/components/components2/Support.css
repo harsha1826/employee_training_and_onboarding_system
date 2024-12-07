@@ -1,0 +1,67 @@
+.support-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #e4ef81;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.support-title {
+  color: #1b5e20; /* You can change this to black if needed */
+  font-weight: bold;
+}
+
+.support-section {
+  margin-bottom: 30px;
+}
+
+/* Ensure all text is black */
+.support-container, 
+.support-container p, 
+.support-container h1, 
+.support-container h2, 
+.support-container h3, 
+.support-container a,
+.faq-card, 
+.contact-card {
+  color: black;
+}
+
+.faq-button,
+.contact-button,
+.chat-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.faq-button:hover {
+  background-color: #3949ab;
+  transform: translateY(-3px);
+}
+
+.contact-button:hover {
+  background-color: #00897b;
+  transform: translateY(-3px);
+}
+
+.chat-button:hover {
+  background-color: #66bb6a;
+  transform: translateY(-3px);
+}
+
+.faq-card,
+.contact-card {
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  background-color: #71c1fa;
+  border-radius: 8px;
+  padding: 20px;
+  color: black; /* Ensure text inside cards is black */
+}
+
+.live-chat .chat-button {
+  padding: 10px 25px;
+  background-color: #43a047;
+  transition: background-color 0.3s ease;
+}

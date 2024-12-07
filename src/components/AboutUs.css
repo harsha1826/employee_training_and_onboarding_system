@@ -1,0 +1,92 @@
+/* AboutUs.css */
+.about-container {
+    padding-top: 70px; /* Padding to prevent overlap with fixed NavBar */
+    margin: 0;
+    backdrop-filter: blur(20px);
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    padding: 20px;
+  }
+  
+  .about-header h1{
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #e61986;
+    color:black
+  }
+
+  .about-header p {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #e61986;
+    color:black
+  }
+  
+  .about-section {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #a95f5f;
+    margin-bottom: 20px;
+    justify-content: space-between;
+  }
+
+  .about-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+  }
+
+  .about-image {
+    width: 50%;
+    padding-left: 20px;
+  }
+  
+  .about-image img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .responsive-img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .back-to-top {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  
+  .back-to-top button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: rgb(14, 0, 0);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+  
+  
+  .back-to-top button:hover {
+    background-color: #0056b3;
+  }
+  
+  .about-footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #a95f5f;
+  }
+  
+  .about-footer p {
+    margin: 0;
+    font-size: 14px;
+  }

@@ -1,0 +1,52 @@
+/* Dashboard.css */
+
+.dashboard-container {
+    padding: 20px;
+    text-align: center;
+    backdrop-filter: blur(500px);
+    display: flex;
+    margin: 3;
+   
+  }
+  
+  .dashboard-header {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .user-info {
+    margin: 20px 0;
+  }
+  
+  .user-info h2 {
+    margin-bottom: 10px;
+  }
+  
+  .nav-buttons {
+    margin: 20px 0;
+  }
+  
+  .button {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    backdrop-filter: blur(500px);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #45a049;
+  }
+  
+  .logout-button {
+    background-color: red;
+  }
+  
+  .logout-button:hover {
+    background-color: darkred;
+  }
+  

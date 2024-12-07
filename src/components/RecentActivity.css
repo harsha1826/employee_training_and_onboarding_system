@@ -1,0 +1,52 @@
+.activity-bar {
+  border: 1px solid #ccc;
+  padding: 20px;
+  max-width: 500px;
+  margin: 20px auto;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.activity-bar h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.activity-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.activity-item {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  font-size: 1.1rem;
+  transition: background-color 0.3s ease;
+}
+
+.activity-item:last-child {
+  border-bottom: none;
+}
+
+.activity-time {
+  color: #888;
+  font-size: 0.9rem;
+}
+
+/* Heatmap classes */
+.hot {
+  background-color: #ff4d4d; /* Bright red for recent activities */
+}
+
+.warm {
+  background-color: #ffcc00; /* Yellow for fairly recent activities */
+}
+
+.cool {
+  background-color: #99ccff; /* Light blue for older activities */
+}
+
+.cold {
+  background-color: #e0e0e0; /* Gray for much older activities */
+}
